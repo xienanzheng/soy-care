@@ -1,0 +1,1 @@
+import{s}from"./index-DykhQkCz.js";async function c(a,r){try{await s.rpc("reward_for_activity",{activity_name:a,event_metadata:r??{}})}catch(t){console.error("Failed to award credits",t)}}async function i(a,r,t){try{await s.rpc("spend_credits",{spend_amount:a,spend_reason:r,event_metadata:t??{}})}catch(e){throw console.error("Failed to spend credits",e),e}}export{c as a,i as s};
